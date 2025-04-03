@@ -20,21 +20,21 @@ This is the backend service for the DineWise project, built with Node.js + Expre
 ### 1️⃣ 克隆项目 / Clone the repository
 
 ```bash
-git clone https://github.com/<Jiawen-Bao>/dinewise-backend.git
-cd dinewise-backend
+git clone https://github.com/louaih/flavr.git
+cd flavr
 ```
 2️⃣ 安装依赖 / Install dependencies
-```
+```bash
 npm install
 ```
 3️⃣ 配置 Yelp API 密钥 / Set up Yelp API key
 创建 .env 文件，并添加以下内容：
 Create a .env file and add the following line:
-```
+```bash
 YELP_API_KEY=your_actual_yelp_api_key
 ```
 4️⃣ 启动服务器 / Start the server
-```
+```bash
 node server.js
 ```
 示例接口 / Example API Calls
