@@ -22,25 +22,25 @@ This is the backend service for the DineWise project, built with Node.js + Expre
 ```bash
 git clone https://github.com/<Jiawen-Bao>/dinewise-backend.git
 cd dinewise-backend
-
+```
 2️⃣ 安装依赖 / Install dependencies
-
+```
 npm install
-
+```
 3️⃣ 配置 Yelp API 密钥 / Set up Yelp API key
 创建 .env 文件，并添加以下内容：
 Create a .env file and add the following line:
-
+```
 YELP_API_KEY=your_actual_yelp_api_key
-
+```
 4️⃣ 启动服务器 / Start the server
-
+```
 node server.js
-
- 示例接口 / Example API Calls
+```
+示例接口 / Example API Calls
 搜索餐厅 / Search for restaurants:
 
-http://localhost:3000/api/search?location=New York&term=sushi&price=2&rating=4
+http://localhost:3000/api/search?location=New%20York&term=sushi&price=2&rating=4
 
 查看详情 / Get details:
 
@@ -65,10 +65,8 @@ Jiawen-Bao – Backend Lead of DineWise Team
 
 ---
 
-## ✅ 如何使用
+## ✅ 如何使用 How to Contribute
 
-1. 将这段复制粘贴到 `README.md`
-2. 使用命令提交到 Git 仓库：
 
 ```bash
 git add README.md
